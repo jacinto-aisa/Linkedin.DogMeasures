@@ -7,7 +7,7 @@ namespace Linkedin.DogMeasures.Services
     public class ServicioParaProbar
     {
 
-        private readonly List<DogWeightInfo> _weightInfos;
+        public List<DogWeightInfo> _weightInfos;
         public ServicioParaProbar()
         {
             _weightInfos = new List<DogWeightInfo>
